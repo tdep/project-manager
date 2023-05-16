@@ -1,24 +1,19 @@
 # README
+## Project Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app to help track personal projects that I'm working on and organize them into one place. Sort of like Jira or a Trello board.
 
-Things you may want to cover:
+Things it can do:
+Create / edit a User (delete reserved for admin functionality in the future)
+Create / edit / delete a project.
+Create / edit / delete a task.
 
-* Ruby version
+Projects and tasks have start and end dates. They also have status trackers.
 
-* System dependencies
+Ruby 3.0.5
 
-* Configuration
+'bundle install' in the main directory to install all of the required gems.
 
-* Database creation
+'rails -s' to start the server.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can find the endpoints in routes.rb.
