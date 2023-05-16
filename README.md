@@ -12,8 +12,8 @@ Projects and tasks have start and end dates. They also have status trackers.
 
 Ruby 3.0.5
 
-'bundle install' in the main directory to install all of the required gems.
+`bundle install` in the main directory to install all of the required gems.
 
-'rails -s' to start the server.
+`rails -s` to start the server.
 
 You can find the endpoints in routes.rb.
